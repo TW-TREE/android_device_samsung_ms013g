@@ -1,0 +1,9 @@
+/system         ext4      /dev/block/platform/msm_sdcc.1/by-name/system
+/data           ext4      /dev/block/platform/msm_sdcc.1/by-name/userdata
+/cache          ext4      /dev/block/platform/msm_sdcc.1/by-name/cache
+
+/boot           emmc      /dev/block/platform/msm_sdcc.1/by-name/boot
+/recovery       emmc      /dev/block/platform/msm_sdcc.1/by-name/recovery
+
+/external_sd    auto      /dev/block/mmcblk1p1                               flags=display="SD Card";storage;wipeingui;removable
+/usb_otg        auto      /dev/block/sda1                                    flags=display="USB OTG";storage;wipeingui;removable
